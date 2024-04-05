@@ -79,7 +79,7 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
     - name: Set up Wfifi on default config
-              run: |
+      run: |
                 mkdir -p files/etc/uci-defaults
                 cat > files/etc/uci-defaults/99-setupwifi << EOF
                 uci set wireless.radio0.country='AU'
