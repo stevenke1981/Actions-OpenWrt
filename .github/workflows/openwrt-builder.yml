@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder  # 工作流程的名称
+name: OpenWrt Builder for Redmi AX6  # 工作流程的名称
 
 on:
   repository_dispatch:
