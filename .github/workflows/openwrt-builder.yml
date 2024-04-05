@@ -121,10 +121,10 @@ jobs:
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
         
-    - name: Build toolchain
-      run: |
-        make toolchain/install -j$(nproc) V=s || \
-        make toolchain/install V=s
+    # - name: Build toolchain
+     # run: |
+      #  make toolchain/install -j$(nproc) V=s || \
+      #  make toolchain/install V=s
 
     - name: Compile the firmware  # 步骤：编译固件
       id: compile
