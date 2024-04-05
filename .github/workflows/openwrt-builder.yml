@@ -110,8 +110,8 @@ jobs:
         uci commit
         /etc/init.d/firewall restart
         /etc/init.d/qca-nss-ecm restart
-      EOF
-
+        EOF
+        
     - name: Download package  # 步骤：下载软件包
       id: package
       run: |
