@@ -16,3 +16,6 @@
 # Add a feed source
 echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# Add qosmio nss-package
+echo 'src-git nss-packages https://github.com/qosmio/nss-packages' >>feeds.conf.default
